@@ -1,27 +1,43 @@
-# Shisha
+# Perfume online marketplace frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+Perfume online marketplace built using [Django](https://www.djangoproject.com/) and [Angular](https://angular.io/). The database is local made using
+[PostgreSQL](https://www.postgresql.org/). It features a list of perfumes that can be viewed, the users being able to write comments about them. It features authentication, authorization, shopping cart, checkout.
 
-## Development server
+Hosted at https://redikus3q.github.io/perfumes.github.io using [Github Pages](https://pages.github.com/).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Front-end
 
-## Code scaffolding
+Made using [Angular CLI 13.0.2](https://www.npmjs.com/package/@angular/cli/v/13.0.2) with [Angular Material](https://material.angular.io/) and some help from
+[Animate.css](https://animate.style/).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Prerequisites
 
-## Build
+Download and install [Node.js](https://nodejs.org/en/download/).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Download and install [Angular](https://angular.io/guide/setup-local). Using the following command will do:
 
-## Running unit tests
+```bash
+npm install -g @angular/cli
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+[Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [download](https://www.itprotoday.com/development-techniques-and-management/how-do-i-download-files-github) the application.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run the following command using the command prompt in the main directory of the front-end part, in our case /frontend.
 
-## Further help
+```bash
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Usage
+
+Use the following command in the main directory of the front-end part, in our case /frontend. The website will be available to use at [localhost:4200](http://localhost:4200/).
+
+```bash
+ng serve
+```
+
+# Back-end
+
+Please go to https://github.com/redikus3q/perfume-backend to pull and check out the back-end.
