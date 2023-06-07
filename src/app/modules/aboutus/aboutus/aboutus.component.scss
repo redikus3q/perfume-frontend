@@ -1,0 +1,32 @@
+@use "../../../../colors" as colors;
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 4vh;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 22px;
+}
+
+.aboutus-container {
+  background-color: colors.$background-color-card;
+  width: 50vw;
+  color: white;
+  margin: 20px;
+  margin-top: 50px;
+  box-shadow: colors.$shadow-card;
+  padding: 20px 20px 20px 20px;
+  font-family: Arial;
+  text-align: center;
+}
