@@ -38,6 +38,12 @@ Use the following command in the main directory of the front-end part, in our ca
 ng serve
 ```
 
+If you want to deploy the front-end on your own on Github Pages you can simply run the build bat file and will be automatically be set up for you. You might need to change the name of the href to your github repo name in the bat.
+
+```bash
+build.bat
+```
+
 # Back-end
 
 Please go to https://github.com/redikus3q/perfume-backend to pull and check out the back-end.

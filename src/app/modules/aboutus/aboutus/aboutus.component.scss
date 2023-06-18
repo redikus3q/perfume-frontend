@@ -30,3 +30,16 @@ h4 {
   font-family: Arial;
   text-align: center;
 }
+
+.disclaimer {
+  color: rgb(222, 144, 144);
+}
+
+a {
+  color: rgb(236, 213, 213); /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+a:hover {
+  text-decoration: underline;
+}
