@@ -3,7 +3,7 @@
 Perfume online marketplace built using [Django](https://www.djangoproject.com/) and [Angular](https://angular.io/). The database is local made using
 [PostgreSQL](https://www.postgresql.org/). It features a list of perfumes that can be viewed, the users being able to write comments about them. It features authentication, authorization, shopping cart, checkout.
 
-Hosted at https://redikus3q.github.io/perfumes.github.io using [Github Pages](https://pages.github.com/).
+Hosted at https://redikus3q.github.io/perfume-frontend using [Github Pages](https://pages.github.com/).
 
 # Front-end
 
